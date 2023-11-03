@@ -1,0 +1,29 @@
+{
+    "description": "Nonlocal creation of a 4d Bell state.",
+    "bulk_thr": 0,
+    "edges_tried": 30,
+    "foldername": "2pES_4d",
+    "ftol": 1e-04,
+    "loss_func": "cr",
+    "num_anc": 4,
+    "num_pre": 1,
+    "optimizer": "L-BFGS-B",
+    "imaginary": false,
+    "real": true,
+    "safe_hist": true,
+    "samples": 10,
+    "removed_connections": [[0,1]],
+    "target_state": [
+        "00",
+        "11",
+        "22",
+        "33"
+
+    ],
+    "thresholds": [
+        0.3,
+        0.1
+    ],
+    "tries_per_edge": 5,
+    "unicolor": false
+}
